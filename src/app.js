@@ -20,10 +20,9 @@ app.use(cookieParser());
 // Routes
 app.use('/api/v1/users', userRouter);
 
-// Error handling
-app.use((req, res, next) => {
-    res.status(404).send('Not Found');
-});
+
+
+
 
 // Start server
 
